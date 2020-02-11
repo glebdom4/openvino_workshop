@@ -46,3 +46,14 @@
 ```bash
     pip install -r requirements.txt
 ```
+
+### How to run in slides mode
+
+Added initial types for slides. Skipped most of the functions.
+We also need to pre-run the notebook to save bin commands output and display it on the slide.
+
+To check current presentation just run the command bellow:
+```
+jupyter nbconvert OpenVINO_Workshop.ipynb --to slides --post serve
+```
+
